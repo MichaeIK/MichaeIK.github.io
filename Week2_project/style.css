@@ -1,0 +1,640 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+   font-family: AVIAN;
+   src: url('fonts/AVIAN.TTF');
+}
+@font-face {
+    font-family: HelveticaNeueLTPro;
+   src: url('fonts/HelveticaNeueLTPro-Hv.otf');
+}
+@font-face {
+    font-family: MyriadPro;
+    font-style: italic;
+   src: url('fonts/MyriadPro-It.otf');
+}
+@font-face {
+    font-family: MyriadPro;
+    font-weight: normal;
+   src: url('fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+    font-family: OfficinaSansStd;
+  font-weight: bold;
+   src: url('fonts/OfficinaSansStd-Bold.otf');
+}
+@font-face {
+    font-family: OfficinaSansStd;
+    font-weight: normal;
+   src: url('fonts/OfficinaSansStd-Book.otf');
+}
+@font-face {
+    font-family: tahoma;
+   src: url('fonts/tahoma.ttf');
+}
+@font-face {
+    font-family: tahomabd;
+   src: url('fonts/tahoma.ttf');
+}
+/**Sasha**/
+.float-left {
+  float: left;
+}
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.wrapper-for-header {
+  width: 772px;
+  height: 234px;
+  /* border: 1px solid; */
+}
+.main-header {
+  margin: 0 auto;
+  width: 759px;
+  height: 75px;
+  /* border: 1px solid green; */
+  color: #fff;
+  font-size: 10px;
+
+}
+.main-header-logo {
+  height: 100%;
+  width: 243px;
+  background-color: #535353;
+  position: relative;
+  border-right: 1px dashed #fff;
+}
+.logo-arrow {
+
+position: absolute;
+
+top: 17px;
+
+left: 24px;
+}
+.logo-text {
+  font-size: 30px;
+  font-family: OfficinaSansStd; ;
+  line-height: 2.4;
+  margin-left: 40px;
+}
+.logo-text span {
+  color: #cbcbcb;
+  text-transform: uppercase;
+}
+
+
+.main-header-red-bg {
+  background-image: url("jpeg/bg_header.png");
+  height: 100%;
+  width: 515px;
+  font-size: 10px;
+  font-family: Tahoma;
+}
+.main-header-sh-cart {
+  text-align: right;
+  width: 165px;
+  padding: 20px 15px;
+}
+.main-header-sh-cart p:last-child {
+  font-size: 12px;
+}
+
+
+.main-header-lang {
+  width: 147px;
+  border-left: 1px dashed rgba(255, 255, 255, 0.4);
+  border-right: 1px dashed rgba(255, 255, 255, 0.4);
+}
+.main-header-lang-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+.main-header-lang-imgs {
+  text-align: center;
+
+}
+.main-header-lang-imgs img {
+  margin: 0 3px;
+}
+
+.main-header-currencies {
+  width: 158px;
+  margin-top: 20px;
+}
+.main-header-currencies select {
+  width: 133px;
+  margin-left: 20px;
+  margin-top: 3px;
+}
+.main-header-currencies label {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+select > option {
+  font-size: 10px;
+}
+
+
+.wrapper-for-header nav {
+  width: 247px;
+}
+.header-nav {
+  margin-left: 41px;
+  margin-top: 27px;
+}
+.header-nav-item {
+  font-family: MyriadPro;
+  font-size: 14px;
+  padding: 2px 0;
+  color: rgb(31, 31, 31);
+  width: 205px;
+  border-bottom: 1px dotted gray;
+}
+.header-nav-item a {
+  color: rgb(31, 31, 31);
+}
+.header-nav-item a:hover {
+  color: #ab0e05;
+}
+
+.header-nav-item-bullet {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  margin: 4px 14px 0 2px;
+}
+.header-nav-item-bullet__red {
+  position: absolute;
+}
+.header-nav-item-bullet__white {
+  position: absolute;
+  top: 1px;
+  left: -2px;
+}
+
+
+
+/**aside from Ahmet*/
+
+
+aside {
+	width: 244px;
+	height: 595px;
+}
+
+.wrap_aside_nav {
+	padding-left: 35px;
+}
+
+aside nav {
+	height: 470px;
+}
+
+.caption_nav {
+	background-color: #cbcbcb;
+	padding-left: 15px;
+	font-family: OfficinaSansStd;
+	width: 194px;
+	height: 27px;
+}
+
+aside h4 {
+	line-height: 30px;
+	font-weight: normal;
+}
+
+aside ul {
+	list-style: none;
+	padding: 0;
+	padding-left: 15px;
+}
+
+
+aside nav a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	border-bottom: 1px #cbcbcb dotted;
+	line-height: 22px;
+	font-family: tahoma, sans-serif;
+	font-size: 11px;
+}
+
+aside a:hover {
+	color:#ab0e05;
+}
+
+.day {
+	width: 212px;
+	height: 48px;
+	float: right;
+	margin-top: -13px;
+}
+
+.cards {
+	width: 244px;
+	height: 65px;
+}
+
+aside nav a:before {
+	content: url(jpeg/arrow.png);
+	padding-right: 10px;
+	position: relative;
+	top: -3px;
+	}
+  .wrapper {
+  	width: 523px;
+  	height: 159px;
+  	/* border: 1px black solid; */
+  	float: left;
+  }
+
+  .cameras {
+  	background: url(jpeg/main-17.jpg);
+  	width: 215px;
+  	height: 159px;
+  	background-repeat: no-repeat;
+  	margin: 0;
+  	float: left;
+  }
+
+  .logo {
+  	background: url(jpeg/main-18.jpg);
+  	width: 308px;
+  	height: 99px;
+  	background-repeat: no-repeat;
+  	float: left;
+  }
+
+  .comment {
+  	background: url(jpeg/enter.jpg);
+  	width: 308px;
+  	height: 60px;
+  	float: left;
+  }
+
+
+
+/****Misha*/
+
+
+.mwrap {
+	width: 523px;
+	height: 530px;
+	background-color: black;
+	overflow: hidden;
+}
+.mtxt {
+	font-family: OfficinaSansStd;
+	font-size: 14px;
+	color: white;
+	margin-left: 16px;
+	margin-top: 9px;
+}
+.mmain {
+	margin: 0 auto;
+	width: 495px;
+	height: 470px;
+	background-color: black;
+	padding: 2px;
+}
+.mblock {
+	overflow: hidden;
+	padding-top: 1px;
+}
+.mblockl {
+	width: 241px;
+	height: 480px;
+	float: left;
+}
+.mblockr {
+	width: 241px;
+	height: 480px;
+	float: right;
+}
+/* --------------------первий левий блок -------------*/
+.mblockl1 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: 4px;
+	position: relative;
+	border: 1px solid black;
+}
+.mblockbg {
+	width: 238px;
+	height: 150px;
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background-color: transparent;
+	border: 1px solid #cecece;
+}
+.mimg {
+	margin-left: 15px;
+	margin-top: 16px;
+	background-image: url(jpeg/slide1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 84px;
+	height: 84px;
+	float: left;
+}
+.mdiscrp {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 11px;
+	margin-left: 24px;
+	margin-top: 19px;
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+.mprice {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: red;
+	position: absolute;
+	top: 62px;
+	left: 127px;
+}
+.mblockl1d {
+	width: 200px;
+	height: 34px;
+	border-top: 1px dashed lightgrey;
+	position: absolute;
+	top: 105px;
+	left: 17px;
+}
+.mimgd {
+	width: 78px;
+	height: 19px;
+	margin-top: 11px;
+	margin-left: 6px;
+	background-image: url(jpeg/details.png);
+}
+.mtxtd {
+	padding-top: 3px;
+	padding-left: 3px;
+	font-size: 12px;
+}
+.mimgcart {
+	width: 101px;
+	height: 19px;
+	background-image: url(jpeg/addcart.png);
+	margin-top: -28px;
+	margin-left: 94px;
+}
+
+/* --------------------второй левий блок -------------*/
+.mblockl2 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: 4px;
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimg1 {
+	margin-left: 15px;
+	margin-top: 10px;
+	background-image: url(jpeg/slide2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 96px;
+	height: 60px;
+	float: left;
+}
+.mdiscrp1 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 11px;
+	margin-top: 0px;
+	margin-left: 13px;
+	width: 90px;
+	height: 100%;
+	float: left;
+}
+
+/* --------------------третий левий блок -------------*/
+
+.mblockl3 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: 4px;
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimg2 {
+	position: absolute;
+	background-image: url(jpeg/bgslide3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 236px;
+	height: 148px;
+	float: left;
+}
+
+.mimgd1 {
+	position: absolute;
+	top: 100px;
+	left: 128px;
+	width: 78px;
+	height: 19px;
+	margin-top: 11px;
+	margin-left: 6px;
+	background-image: url(jpeg/details.png);
+}
+.mdiscrp13 {
+	position: absolute;
+	font-family: Avian;
+	top: 44px;
+	left: 122px;
+	font-size: 19px;
+	color: red;
+}
+.mdiscrp131 {
+	position: absolute;
+	font-family: Avian;
+	top: 60px;
+	left: 160px;
+	font-size: 10px;
+	color: #a8a4a4;
+}
+.mtxtd1 {
+	position: absolute;
+	top: -6px;
+	left: 2px;
+	font-size: 12px;
+}
+
+/* --------------------первий правий блок -------------*/
+.mblockr1 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: -4px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimgr1 {
+	margin-left: 15px;
+	margin-top: 17px;
+	background-image: url(jpeg/slider1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 90px;
+	float: left;
+}
+.mdiscrpr1 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 11px;
+	margin-top: 18px;
+	margin-left: 10px;
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+
+/* --------------------второй правий блок -------------*/
+.mblockr2 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: -4px;
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimgr2 {
+	margin-left: 15px;
+	margin-top: 17px;
+	background-image: url(jpeg/slider2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 96px;
+	height: 90px;
+	float: left;
+}
+.mdiscrpr1 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 11px;
+	margin-top: 18px;
+	margin-left: 10px;
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+/* --------------------третій правий блок -------------*/
+.mblockr3 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: -4px;
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimgr3 {
+	position: absolute;
+	background-image: url(jpeg/slider3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 236px;
+	height: 148px;
+	float: left;
+}
+
+.mimgd1 {
+	position: absolute;
+	top: 100px;
+	left: 128px;
+	width: 78px;
+	height: 19px;
+	margin-top: 11px;
+	margin-left: 6px;
+	background-image: url(jpeg/details.png);
+}
+.mdiscrp13_1 {
+	position: absolute;
+	font-family: Avian;
+	top: 43px;
+	left: 112px;
+	font-size: 12px;
+	color: red;
+}
+.mdiscrp131_1 {
+	position: absolute;
+	font-family: Avian;
+	top: 54px;
+	left: 151px;
+	font-size: 10px;
+	color: #a8a4a4;
+}
+.mtxtd1 {
+	position: absolute;
+	top: -6px;
+	left: 2px;
+	font-size: 12px;
+}
+
+
+
+/**Slavik*/
+
+
+.footer {
+	width: 523px;
+	height: 67px;
+}
+.footer_down-menu{
+	width: 523px;
+	height: 67px;
+	text-transform: uppercase;
+	font-size: 12px;
+	/* margin: 0 auto; */
+	text-align: center;
+	background-image: url('jpeg/b_links.jpg');
+	background-size: 523px 67px;
+}
+
+.footer_link {
+	padding-right: 5px;
+	border-right: 1px solid;
+	color: black;
+	vertical-align: middle;
+
+
+}
+
+.fotter_copyright {
+	font-size: 11px;
+	text-align: left;
+	padding-left: 26px;
+	color: black;
+	text-transform: capitalize;
+
+
+}
+.foter_img {
+
+}

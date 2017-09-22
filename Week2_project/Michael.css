@@ -1,0 +1,351 @@
+body {
+	background-color: lightgrey;
+}
+
+@font-face {
+  font-family: AVIAN;
+  src: url('fonts/AVIAN.TTF');
+}
+@font-face {
+   font-family: HelveticaNeueLTPro;
+  src: url('fonts/HelveticaNeueLTPro-Hv.otf');
+}
+@font-face {
+   font-family: MyriadPro;
+   font-style: italic;
+  src: url('fonts/MyriadPro-It.otf');
+}
+@font-face {
+   font-family: MyriadPro;
+   font-weight: normal;
+  src: url('fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+   font-family: OfficinaSansStd;
+ font-weight: bold;
+  src: url('fonts/OfficinaSansStd-Bold.otf');
+}
+@font-face {
+   font-family: OfficinaSansStd;
+   font-weight: normal;
+  src: url('fonts/OfficinaSansStd-Book.otf');
+}
+@font-face {
+   font-family: tahoma;
+  src: url('fonts/tahoma.ttf');
+}
+@font-face {
+   font-family: tahomabd;
+  src: url('fonts/tahoma.ttf');
+}
+
+
+/****Misha*/
+
+
+.mwrap {
+	width: 523px;
+	height: 530px;
+	background-color: black;
+	overflow: hidden;
+}
+.mtxt {
+	font-family: OfficinaSansStd;
+	font-size: 14px;
+	color: white;
+	margin-left: 16px;
+	margin-top: 9px;
+}
+.mmain {
+	margin: 0 auto;
+	width: 495px;
+	height: 470px;
+	background-color: black;
+	padding: 2px;
+}
+.mblock {
+	overflow: hidden;
+	padding-top: 1px;
+}
+.mblockl {
+	width: 241px;
+	height: 480px;
+	float: left;
+}
+.mblockr {
+	width: 241px;
+	height: 480px;
+	float: right;
+}
+/* --------------------первий левий блок -------------*/
+.mblockl1 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: 4px;
+	position: relative;
+	border: 1px solid black;
+}
+.mblockbg {
+	width: 238px;
+	height: 150px;
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background-color: transparent;
+	border: 1px solid #cecece;
+}
+.mimg {
+	margin-left: 15px;
+	margin-top: 16px;
+	background-image: url(jpeg/slide1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 84px;
+	height: 84px;
+	float: left;
+}
+.mdiscrp {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 11px;
+	margin-left: 24px;
+	margin-top: 19px;
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+.mprice {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	color: red;
+	position: absolute;
+	top: 62px;
+	left: 127px;
+}
+.mblockl1d {
+	width: 200px;
+	height: 34px;
+	border-top: 1px dashed lightgrey;
+	position: absolute;
+	top: 105px;
+	left: 17px;
+}
+.mimgd {
+	width: 78px;
+	height: 19px;
+	margin-top: 11px;
+	margin-left: 6px;
+	background-image: url(jpeg/details.png);
+}
+.mtxtd {
+	padding-top: 3px;
+	padding-left: 3px;
+	font-size: 12px;
+}
+.mimgcart {
+	width: 101px;
+	height: 19px;
+	background-image: url(jpeg/addcart.png);
+	margin-top: -28px;
+	margin-left: 94px;
+}
+
+/* --------------------второй левий блок -------------*/
+.mblockl2 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: 4px;
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimg1 {
+	margin-left: 15px;
+	margin-top: 10px;
+	background-image: url(jpeg/slide2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 96px;
+	height: 60px;
+	float: left;
+}
+.mdiscrp1 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 11px;
+	margin-top: 0px;
+	margin-left: 13px;
+	width: 90px;
+	height: 100%;
+	float: left;
+}
+
+/* --------------------третий левий блок -------------*/
+
+.mblockl3 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: 4px;
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimg2 {
+	position: absolute;
+	background-image: url(jpeg/bgslide3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 236px;
+	height: 148px;
+	float: left;
+}
+
+.mimgd1 {
+	position: absolute;
+	top: 100px;
+	left: 128px;
+	width: 78px;
+	height: 19px;
+	margin-top: 11px;
+	margin-left: 6px;
+	background-image: url(jpeg/details.png);
+}
+.mdiscrp13 {
+	position: absolute;
+	font-family: Avian;
+	top: 44px;
+	left: 122px;
+	font-size: 19px;
+	color: red;
+}
+.mdiscrp131 {
+	position: absolute;
+	font-family: Avian;
+	top: 60px;
+	left: 160px;
+	font-size: 10px;
+	color: #a8a4a4;
+}
+.mtxtd1 {
+	position: absolute;
+	top: -6px;
+	left: 2px;
+	font-size: 12px;
+}
+
+/* --------------------первий правий блок -------------*/
+.mblockr1 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: -4px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimgr1 {
+	margin-left: 15px;
+	margin-top: 17px;
+	background-image: url(jpeg/slider1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 90px;
+	float: left;
+}
+.mdiscrpr1 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 11px;
+	margin-top: 18px;
+	margin-left: 10px;
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+
+/* --------------------второй правий блок -------------*/
+.mblockr2 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: -4px;
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimgr2 {
+	margin-left: 15px;
+	margin-top: 17px;
+	background-image: url(jpeg/slider2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 96px;
+	height: 90px;
+	float: left;
+}
+.mdiscrpr1 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 11px;
+	margin-top: 18px;
+	margin-left: 10px;
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+/* --------------------третій правий блок -------------*/
+.mblockr3 {
+	width: 236px;
+	height: 148px;
+	background-color: white;
+	margin-left: -4px;
+	margin-top: 10px;
+	position: relative;
+	border: 1px solid black;
+}
+.mimgr3 {
+	position: absolute;
+	background-image: url(jpeg/slider3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 236px;
+	height: 148px;
+	float: left;
+}
+
+.mimgd1 {
+	position: absolute;
+	top: 100px;
+	left: 128px;
+	width: 78px;
+	height: 19px;
+	margin-top: 11px;
+	margin-left: 6px;
+	background-image: url(jpeg/details.png);
+}
+.mdiscrp13_1 {
+	position: absolute;
+	font-family: Avian;
+	top: 43px;
+	left: 112px;
+	font-size: 12px;
+	color: red;
+}
+.mdiscrp131_1 {
+	position: absolute;
+	font-family: Avian;
+	top: 54px;
+	left: 151px;
+	font-size: 10px;
+	color: #a8a4a4;
+}
+.mtxtd1 {
+	position: absolute;
+	top: -6px;
+	left: 2px;
+	font-size: 12px;
+}

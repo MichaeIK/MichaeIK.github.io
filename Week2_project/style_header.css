@@ -1,0 +1,29 @@
+.wrapper {
+	width: 523px;
+	height: 159px;
+	border: 1px black solid;
+}
+
+.cameras {
+	background: url(images/main-17.jpg);
+	width: 215px;
+	height: 159px;
+	background-repeat: no-repeat;
+	margin: 0;
+	float: left;
+}
+
+.logo {
+	background: url(images/main-18.jpg);
+	width: 308px;
+	height: 99px;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.comment {
+	background: url(images/enter.jpg);
+	width: 308px;
+	height: 60px;
+	float: left;
+}

@@ -1,0 +1,38 @@
+.footer {
+	width: 523px;
+	height: 65px;
+}
+
+.footer_down-menu{
+	width: 523px;
+	height: 65px;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin: auto auto;
+	text-align: center;
+	background-image: url(images/b_links.jpg);
+	background-size: 523px 65px;
+
+}
+
+.footer_link {
+	padding-right: 5px;
+	border-right: 1px solid;
+	color: black;
+	vertical-align: middle;
+
+
+}
+
+.fotter_copyright {
+	font-size: 11px;
+	text-align: left;
+	padding-left: 26px;
+	color: black;
+	text-transform: capitalize;
+
+
+}
+.foter_img {
+
+}

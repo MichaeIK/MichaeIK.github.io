@@ -1,0 +1,101 @@
+@font-face {
+   font-family: AVIAN;
+   src: url(fonts/AVIAN.TTF);
+}
+@font-face {
+    font-family: HelveticaNeueLTPro;
+   src: url(fonts/HelveticaNeueLTPro-Hv.otf);
+}
+@font-face {
+    font-family: MyriadPro;
+   src: url(fonts/MyriadPro-It.otf);
+}
+@font-face {
+    font-family: MyriadPro;
+   src: url(fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: OfficinaSansStd;
+   src: url(fonts/OfficinaSansStd-Bold.otf);
+}
+@font-face {
+    font-family: OfficinaSansStd;
+   src: url(fonts/OfficinaSansStd-Book.otf);
+}
+@font-face {
+    font-family: tahoma;
+   src: url(fonts/tahoma.ttf);
+}
+@font-face {
+    font-family: OfficinaSansStd;
+   src: url(fonts/OfficinaSansStd-Book.otf);
+}
+@font-face {
+    font-family: tahomabd;
+   src: url(fonts/tahoma.ttf);
+} 
+
+aside {
+	width: 244px;
+	height: 595px;
+}
+
+.wrap_aside_nav {
+	padding-left: 35px;
+}
+
+aside nav {
+	height: 470px;
+}
+
+.caption_nav {
+	background-color: #cbcbcb;
+	padding-left: 15px;
+	font-family: OfficinaSansStd;
+	width: 194px;
+	height: 27px;
+}
+
+aside h4 {
+	line-height: 30px;
+	font-weight: normal;
+}
+
+aside ul {
+	list-style: none;
+	padding: 0;
+	padding-left: 15px;
+}
+
+
+aside nav a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	border-bottom: 1px #cbcbcb dotted;
+	line-height: 22px;
+	font-family: tahoma, sans-serif;
+	font-size: 11px;
+}
+
+aside a:hover {
+	color:#ab0e05;
+}
+
+.day {
+	width: 212px;
+	height: 48px;
+	float: right;
+}
+
+.cards {
+	width: 244px;
+	height: 65px;
+}
+
+aside nav a:before {
+	content: url(jpeg/arrow.png);
+	padding-right: 10px;
+	position: relative;
+	top: -3px;
+	}
