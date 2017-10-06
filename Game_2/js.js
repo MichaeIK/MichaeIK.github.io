@@ -31,7 +31,7 @@ butStart.onclick=function(){
         setInterval(function () {
             if( second > 0){ second=roundPlus(second-0.1);
                 if(numRand.length==0){
-                    second="you win";
+                    second="Win";
                 }
                 toSecond.value = second;
             }
