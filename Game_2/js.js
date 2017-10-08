@@ -110,7 +110,7 @@ for(var i=0; i<numHolders.length; i++){
         }
         else{
             // this.style.backgroundColor = "#ffab91";
-            var speechBubble = ["Are you serious?", "Wro-o-ong!", "Are you kidding me?", "Try one more time", "HA-HA, LOSER!"];
+            var speechBubble = ["Are you serious?", "Wro-o-ong!", "Are you kidding?", "Try one more time", "HA-HA, LOSER!"];
 			// длина массива
                 var len_arr = speechBubble.length;
 			// случайное число от 0 до длинны массива
