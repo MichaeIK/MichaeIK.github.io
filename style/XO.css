@@ -1,0 +1,24 @@
+#wrap{
+	width: 246px;
+	height: 246px;
+	background-color: lightgrey;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.box, .boxX{
+	width: 80px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	background-color: lightgrey;
+	float: left;
+	border: 1px solid black;
+}
+.boxX{
+	background-image: url('../img/x.png');
+	background-size: 100% 100%;
+}
+.box0{
+	background-image: url('../img/0.png');
+	background-size: 100% 100%;
+}
