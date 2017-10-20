@@ -40,5 +40,5 @@ function rec1(x,y){
 	if  (b >= 0){
 		rec1(x,y);
 	}
-	rec(x-20, y-20);	
+	rec(x-20, y-20);
 }
