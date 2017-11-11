@@ -6,6 +6,7 @@ body {
 }
 h2 {
 	font-size: 50px;
+	text-align: center;
 }
 h3 {
 	display: inline;
@@ -19,6 +20,9 @@ h5 {
 a {
 	color: white;
 	font-size: 14px;
+}
+li {
+	list-style: none;
 }
 img {
 	width: 80px;
@@ -49,7 +53,7 @@ p {
 	text-align: center;
 }
 .secondSlide {
-	height: 690px;
+	height: 700px;
 	background: linear-gradient(to bottom,#fff 1%,#cfd1cf 100%);
 	padding-top: 120px;
 }
@@ -61,10 +65,23 @@ p {
 	height: 450px;
 }
 .thirdSlide{
-	height: 690px;
+	height: 790px;
 	background-color: rgb(37, 37, 37);
 	color: white;
 	padding-top: 50px;
+	position: relative;
+}
+.examples {
+	width: 320px;
+	height: 300px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: orange;
+	z-index: 50;
 }
 .thirdSlideTitle {
 	text-align: center;
@@ -74,8 +91,8 @@ p {
 }
 .footer {
 	height: 100%;
-	background-color: black;
-	color: white;
+	background-color: #d0d2d0;
+	color: black;
 }
 .red {
 	color: red;
@@ -109,8 +126,11 @@ p {
 	.about {
 		margin-left: 10%;
 	}
+	.secondSlide{
+		height: 1140px;
+	}
 	.thirdSlide {
-		height: 900px;
+		height: 1270px;
 	}
 @media screen and (max-width: 570px) {
     h2 {
@@ -127,7 +147,7 @@ p {
 		background-position: 100% 25%;
 	}
 	.secondSlide{
-		height: 568px;
+		height: 1140px;
 		padding-top: 45px;
 	}
 	.photo {
@@ -136,7 +156,7 @@ p {
 		height: 200px;
 	}
 	.thirdSlide {
-		height: 900px;
+		height: 1270px;
 	}
 	.footer {
 		text-align: center;
