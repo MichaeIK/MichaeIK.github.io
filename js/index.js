@@ -8,44 +8,46 @@ $(function(){
 		};
 	var block = $('<div class="examplBlock"></div>')
 
-	$('.onClick').click(function(){
+	// onclick razobrat object
+
+	// $('.onClick').click(function(){
 		
 
-		if(click == 0){
-			$(this).css('position', 'relative');
-			$(this).append(block);
-			$('.examplBlock').animate({
-			'left':'100px',
-			'width':'300px',
-			'height':'300px'})
-			// $('.examplBlock').animate({left:'250px'})
-			click++
+	// 	if(click == 0){
+	// 		$(this).css('position', 'relative');
+	// 		$(this).append(block);
+	// 		$('.examplBlock').animate({
+	// 		'left':'100px',
+	// 		'width':'300px',
+	// 		'height':'300px'})
+	// 		// $('.examplBlock').animate({left:'250px'})
+	// 		click++
 
-			for(let key in examples){
-				if (examples[key]['title'] == $(this)[0].id){
-					$('.examplBlock').append('<p class="tmp" >'+examples[key]['title']+'</p>')
-					$('.examplBlock').append('<p class="tmp" >'+examples[key]['description']+'</p>')
-					for(let keyLinks in examples[key]['links']){
-						$('.examplBlock').append('<div class="tmp" ><p class="tmp" >'+examples[key]['links'][keyLinks]['name']+'</p><p class="tmp" >'+examples[key]['links'][keyLinks]['link']+'</p></div>')
-					}
-				}
-			}
+	// 		for(let key in examples){
+	// 			if (examples[key]['title'] == $(this)[0].id){
+	// 				$('.examplBlock').append('<p class="tmp" >'+examples[key]['title']+'</p>')
+	// 				$('.examplBlock').append('<p class="tmp" >'+examples[key]['description']+'</p>')
+	// 				for(let keyLinks in examples[key]['links']){
+	// 					$('.examplBlock').append('<div class="tmp" ><p class="tmp" >'+examples[key]['links'][keyLinks]['name']+'</p><p class="tmp" >'+examples[key]['links'][keyLinks]['link']+'</p></div>')
+	// 				}
+	// 			}
+	// 		}
 
-		} else {
-			// $(this).css('position', 'relative');
-			$('.examplBlock').animate({
-				'top':'120px',
-				'left':'30px',
-				'width':'0px',
-				'height':'0px'})
-			$('.tmp').remove();
-			$('block').remove();
+	// 	} else {
+	// 		// $(this).css('position', 'relative');
+	// 		$('.examplBlock').animate({
+	// 			'top':'120px',
+	// 			'left':'30px',
+	// 			'width':'0px',
+	// 			'height':'0px'})
+	// 		$('.tmp').remove();
+	// 		$('block').remove();
 			
-			click = 0;
-		}
+	// 		click = 0;
+	// 	}
 
 		
-	})
+	// })
 
 	$(document).scroll(function() {
 		if($(document).scrollTop() > 40){
